@@ -33,7 +33,7 @@ def consolidate_cart(cart)
       i += 1
     end
   end
-  receipt
+  receipt.uniq
 end
 
   
